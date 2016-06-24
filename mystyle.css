@@ -26,13 +26,19 @@ body {
   text-shadow: -3px 2px 0px #3E2F32
 }
 
-@media screen and (max-width: 500px) {
-    .identification {
-        padding: 3em 0;
-    }
-    .identification-name {
-        font-size: 3em;
-    }
+.identification {
+  background-image: url('http://i.imgur.com/eAHr997.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: solid 0.25em #F5CBED;
+  border-radius: 20px;
+  padding: 2em 0;
+}
+
+.identification-greeting {
+  margin-bottom: 0.1em;
+  font-size: 2em;
 }
 
 .identification-name{
@@ -43,19 +49,13 @@ body {
   margin-top: -0.2em;
 }
 
-.identification-greeting {
-  margin-bottom: 0.1em;
-  font-size: 2em;
-}
-
-.identification {
-  background-image: url('http://i.imgur.com/eAHr997.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-top: solid 0.25em #F5CBED;
-  border-radius: 20px;
-  padding: 2em 0;
+@media only screen and (max-width: 500px) {
+    .identification {
+        padding: 3em 0;
+    }
+    .identification-name {
+        font-size: 3em;
+    }
 }
 
 .top-margin {
@@ -84,12 +84,6 @@ body {
   margin-right: 1em;
 }
 
-@media only screen and (max-width: 500px) {
-	.hyper {
-		font-size: 2rem;
-	}
-}
-
 a {
   color: #BDCBED;
 }
@@ -100,4 +94,10 @@ a:hover {
 
 a:visited {
   color: #F5CBED
+}
+
+@media only screen and (max-width: 500px) {
+	.smedia-links > li {
+		font-size: 2rem;
+	}
 }
