@@ -88,9 +88,6 @@ a:visited {
 }
 
 @media only screen and (max-width: 1000px) {
-    .identification {
-        padding: 3em 0;
-    }
     .identification-name {
         font-size: 3em;
     }
