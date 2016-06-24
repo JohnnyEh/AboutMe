@@ -49,15 +49,6 @@ body {
   margin-top: -0.2em;
 }
 
-@media only screen and (max-width: 500px) {
-    .identification {
-        padding: 3em 0;
-    }
-    .identification-name {
-        font-size: 3em;
-    }
-}
-
 .top-margin {
   margin-top: 2em;
 }
@@ -94,6 +85,15 @@ a:hover {
 
 a:visited {
   color: #F5CBED
+}
+
+@media only screen and (max-width: 500px) {
+    .identification {
+        padding: 3em 0;
+    }
+    .identification-name {
+        font-size: 3em;
+    }
 }
 
 @media only screen and (max-width: 500px) {
